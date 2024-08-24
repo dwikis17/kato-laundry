@@ -8,7 +8,7 @@ export default function Table({ data }: any) {
         <ul>
             {
                 data?.products.map((item: any) => (
-                    <li>{item.title}</li>
+                    <li key={item}>{item.title}</li>
                 ))
             }
         </ul>
