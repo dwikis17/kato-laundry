@@ -13,7 +13,7 @@ export default async function Page() {
 
     return (
         <>
-            <h1 className="text-7xl">hai</h1>
+            <h1 className="text-7xl">{products[0].email}</h1>
 
         </>
     )
