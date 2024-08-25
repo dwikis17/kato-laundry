@@ -1,27 +1,20 @@
 
-
-import { useEffect, useState } from "react"
-import Table from "../components/Table"
-import { motion } from 'framer-motion'
 import { PrismaClient } from "@prisma/client"
+import useSWR from "swr"
+import Table from "../components/Table"
 export default async function Page() {
 
+    const prisma = new PrismaClient()
 
+    const data = await prisma.user.findMany()
 
-    const products = await fetchProduct()
-    console.log(products)
 
     return (
         <>
-            <h1 className="text-7xl">{products[0].email}</h1>
-
+            <h1>this is static generated</h1>
+            <h1>{data[0].email}</h1>
+            <Table />
         </>
     )
 }
 
-async function fetchProduct() {
-    const prisma = new PrismaClient()
-    const res = await prisma.user.findMany()
-
-    return res
-}
