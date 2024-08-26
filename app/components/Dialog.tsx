@@ -27,7 +27,7 @@ export function AlertDialogDemo() {
                         <div className="flex flex-col gap-3">
                             <Button variant={"outline"} onClick={() => {
                                 window.open('https://wa.me/+6287877679292', '_blank')
-                            }}><div className="flex gap-3 items-center border"><IoLogoWhatsapp />KATO GREENLAKE</div></Button>
+                            }}><div className="flex gap-3 items-center "><IoLogoWhatsapp />KATO GREENLAKE</div></Button>
                             <Button variant={"outline"} onClick={() => {
                                 window.open('https://wa.me/+628997220800', '_blank')
                             }}><div className="flex gap-3 items-center"><IoLogoWhatsapp />KATO GREEN VILLE</div></Button>
