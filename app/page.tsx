@@ -1,11 +1,11 @@
 import CustomHeader from "@/components/CustomHeader";
 import HeroSection from "@/components/section/HeroSection";
-import Head from "next/head";
-import Image from "next/image";
+
 
 import { Work_Sans } from "next/font/google";
 import { Inter } from "next/font/google";
 import WhyUs from "./components/Why";
+import Scroll from "./components/Scroll";
 
 
 
@@ -22,11 +22,15 @@ export default function Home() {
       <div className="flex flex-col ">
         <h1>AH</h1>
         <CustomHeader />
-        <section id='hero' className=" relative  my-10 md:my-20 ">
+        <section id='hero' className="h-screen sm:h-[40vh] relative  mt-10 md:mt-20 ">
           <HeroSection />
         </section>
-        <section id='why-us' className="relative  p-3  my-80 md:my-20 ">
+
+        <section id='why-us' className="relative p-3  ">
           <WhyUs />
+        </section>
+        <section id="footer" className="min-h-[400px] bg-black">
+
         </section>
       </div>
     </>
