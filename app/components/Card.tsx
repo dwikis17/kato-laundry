@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { interFont, workSans } from "../page";
+
 import image_laundry from '@/public/pexels-tima-miroshnichenko-8774511.jpg'
 export default function Card() {
     return (
@@ -12,11 +12,11 @@ export default function Card() {
 
             <div className="bg-[#FFFF] border shadow-md rounded-xl absolute z-2 lg:w-[35%] p-2  w-[50%] lg:right-10 right-6 h-full">
 
-                <div className=" relative min-h-[100px] rounded-xl ">
+                <div className=" relative min-h-[120px] rounded-xl ">
                     <Image src={image_laundry} alt="h" className="shadow-xl rounded xl" fill />
                 </div>
-                <p className={`${interFont.className} mt-6`}>Mulai dari</p>
-                <p className={`${interFont.className} font-bold text-2xl`}>Rp. 8.000</p>
+                <p className={` mt-12`}>Mulai dari</p>
+                <p className={` font-bold text-2xl mt-2`}>Rp. 8.000</p>
             </div>
 
         </>

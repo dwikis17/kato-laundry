@@ -8,13 +8,8 @@ import { Inter } from "next/font/google";
 import WhyUs from "./components/Why";
 
 
-export const workSans = Work_Sans({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-});
 
-export const interFont = Inter({
+const interFont = Inter({
   weight: ['300', '400', '500', '600', '700', '800'],
   style: ['normal'],
   subsets: ['latin'],

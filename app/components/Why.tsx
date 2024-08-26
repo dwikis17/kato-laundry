@@ -1,12 +1,12 @@
 import online_shopping from '@/public/mobile-shopping.png'
 import Image from 'next/image'
 import trusted from '@/public/trust.png'
-import { interFont } from '../page'
+
 import { ComparedCard } from './ComparedCard'
-import { Highlight } from './Highlight'
+
 export default function WhyUs() {
     return (
-        <div className={` ${interFont.className} mx-auto container   grid sm:grid-cols-2 grid-cols-1  gap-10 `}>
+        <div className={` mx-auto container   grid sm:grid-cols-2 grid-cols-1  gap-10 `}>
             <div id='1' className=" flex flex-col  relative text-left gap-10 ">
                 <p className='text-xl font-bold '>Kenapa cuci di Kato Laundry?</p>
                 <h2 className='text-3xl font-bold mt-20 mb-20'>Layanan premium kami memastikan cucian Anda bersih sempurna, diantar jemput langsung ke depan rumah anda.</h2>
