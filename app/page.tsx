@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
 
-      <div className="flex flex-col ">
+      <div className="flex flex-col overflow-hidden">
         <h1>AH</h1>
         <CustomHeader />
         <section id='hero' className="h-screen sm:h-[40vh] relative  mt-10 md:mt-20 ">
