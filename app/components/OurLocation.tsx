@@ -78,6 +78,7 @@ export default function OurLocation() {
             viewport={{ once: true, amount: 0.2 }} // Animate when 20% is visible
             variants={containerVariants} // Apply container animation
         >
+
             <h1 className="text-5xl md:text-4xl lg:text-[50px] text-center text-[#333333] font-bold mb-12">
                 Lokasi Kato Laundry
             </h1>
@@ -91,6 +92,7 @@ export default function OurLocation() {
                     </motion.div>
                 ))}
             </motion.div>
+
         </motion.section>
     )
 }

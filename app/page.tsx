@@ -2,7 +2,7 @@ import CustomHeader from "@/components/CustomHeader";
 import HeroSection from "@/components/section/HeroSection";
 
 
-import { Work_Sans } from "next/font/google";
+import Image from "next/image";
 import { Inter } from "next/font/google";
 
 import Layout from "./components/Layout";
@@ -28,6 +28,17 @@ export default function Home() {
         <WhySection />
         <WhyJoin />
         <OurLocation />
+        <div className="container mx-auto flex justify-center items-center shadow-xl rounded-xl">
+          <Image
+            src="/brochure.webp"
+            alt="brochure"
+            width={800}
+            height={500}
+            className="object-contain"
+          />
+        </div>
+
+
       </Layout>
     </>
   );

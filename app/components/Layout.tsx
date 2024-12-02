@@ -4,6 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
+import Image from 'next/image';
 interface LayoutProps {
     children: React.ReactNode;
 }
@@ -16,15 +17,15 @@ const Navigation = () => {
         { href: "/#why-laundry", text: "Why Laundry" },
         { href: "/#why-us", text: "Why Us" },
         { href: "/#our-location", text: "Our Locations" },
-        { href: "/contact", text: "Join Franchise" },
+        { href: "/", text: "Join Franchise" },
     ]
     return (
         <nav className="bg-white border-b sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between md:justify-start h-16">
                     <div className="flex-shrink-0">
-                        <Link href="/" className="text-xl font-bold">
-                            Logo
+                        <Link href="/#hero" className="text-xl font-bold">
+                            <Image src={'/logo2.jpg'} alt="logo" width={100} height={50} className='object-cover' />
                         </Link>
                     </div>
 
@@ -120,9 +121,10 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <div className="min-h-screen flex flex-col">
             <Navigation />
-            <main className="flex-grow max-w-7xl  mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+            <main className="flex-grow w-full">
                 {children}
             </main>
+
             <Footer />
         </div>
     );
