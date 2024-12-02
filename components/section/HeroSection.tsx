@@ -29,9 +29,14 @@ export default function HeroSection() {
             </h3>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-x-3 w-full sm:w-auto">
-                <Button className="w-full sm:w-auto bg-white text-[#333333] font-bold ">
-                    <Link href="/#our-location">Pesan Laundry</Link>
-                </Button>
+                <Link
+                    href="/#our-location"
+                    className="block w-full"
+                >
+                    <button className="w-full bg-white text-[#333333] font-bold px-4 py-2 rounded">
+                        Pesan Laundry
+                    </button>
+                </Link>
                 <Button variant="default" className="w-full sm:w-auto bg-[#FFFFFF] font-bold text-white bg-opacity-25 border-opacity-0">
                     Jadi Mitra Sekarang
                 </Button>
