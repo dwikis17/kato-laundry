@@ -17,7 +17,7 @@ const ItemComponent = ({ title, description, image }: Benefit) => (
             <Image
                 src={image}
                 layout="fill"
-                objectFit="contain"
+
                 alt="Laundry"
                 unoptimized
             />
@@ -32,24 +32,20 @@ export default function WhySection() {
         {
             title: "Bisnis Jangka Panjang",
             description: "Bisnis yang sustainable, mampu beroperasi dalam jangka yang panjang dan membuatnya jadi pilihan investasi yang baik",
-            image: '/laundry.webp'
+            image: '/longlasting.jpg'
         },
         {
             title: "Aset Berupa Mesin",
             description: "Aset tangibel berupa alat seperti mesin cuci, pengering, dan lainnya",
-            image: '/laundry.webp'
+            image: '/machine.jpg'
         },
         {
             title: "Bisnis yang Tahan Resesi",
             description: "Bisnis yang esensial dan tahan terhadap resesi. Hal ini terbukti pada saat pandemi COVID-19 di tahun 2020 lalu",
-            image: '/laundry.webp'
+            image: '/resesi.jpg'
         },
 
-        {
-            title: "Bisnis yang Tahan Resesi",
-            description: "Bisnis yang esensial dan tahan terhadap resesi. Hal ini terbukti pada saat pandemi COVID-19 di tahun 2020 lalu",
-            image: '/laundry.webp'
-        },
+
     ];
 
     return (
@@ -66,11 +62,16 @@ export default function WhySection() {
             </h1>
 
             <div
-                className="flex overflow-x-auto gap-6 pb-6 px-4 snap-x snap-mandatory 
-          scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent"
+                className="flex gap-6 px-4
+    md:justify-center
+    max-md:overflow-x-auto max-md:pb-6 max-md:snap-x max-md:snap-mandatory
+    max-md:scrollbar-thin max-md:scrollbar-thumb-gray-200 max-md:scrollbar-track-transparent"
             >
                 {businessBenefits.map((benefit, index) => (
-                    <div key={index} className="snap-center shrink-0">
+                    <div
+                        key={index}
+                        className="max-md:snap-center max-md:shrink-0"
+                    >
                         <ItemComponent {...benefit} />
                     </div>
                 ))}

@@ -27,18 +27,18 @@ export default function WhyJoin() {
     const list = [
         {
             title: "Laundry Business Complete Package",
-            description: "Kato Laundry memberikan paket yang sudah dipersipakan dengan komplit berdasarkan pengalaman kami lebih dari 5 tahun. Dengan kelengkapan yang sudah di berikan, Mitra sudah tidak perlu pusing urusan peralatan dan perlengkapan laundry.",
+            description: "Kato Laundry memberikan paket yang sudah dipersiapkan dengan komplit berdasarkan pengalaman kami lebih dari 5 tahun. Dengan kelengkapan yang sudah di berikan, Mitra sudah tidak perlu pusing urusan peralatan dan perlengkapan laundry.",
             image: '/laundry.webp'
         },
         {
             title: "Pendampingan mencari lokasi",
             description: "Lokasi menjadi core dalam usaha laundry, dan akan mendapat pendampingan dalam mencari lokasi yang tepat oleh Team Kato Laundry, Location is the Key in Laundry Businesses.",
-            image: '/laundry.webp'
+            image: '/location.jpg'
         },
         {
             title: "Pendampingan mentoring bisnis",
             description: "Mendapat mentoring dalam bisnis, ketika menjalankan usaha akan sangat sulit jika tanpa pendampingan yang berpengalaman, Team Kato laundry kana memberikan pendampingan dalam menjalankan usaha!",
-            image: '/laundry.webp'
+            image: '/mentor.jpg'
         },
     ]
 

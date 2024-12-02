@@ -27,27 +27,27 @@ export default function OurLocation() {
         {
             title: "Greenlake City",
             number: '+6287877679292',
-            image: '/laundry.webp'
+            image: '/location2.jpg'
         },
         {
             title: "Greenville",
             number: '+628997220800',
-            image: '/laundry.webp'
+            image: '/location2.jpg'
         },
         {
             title: "Citra 6",
             number: '+6285923227111',
-            image: '/laundry.webp'
+            image: '/location2.jpg'
         },
         {
             title: "Kelapa Gading",
             number: '+6287877679292',
-            image: '/laundry.webp'
+            image: '/location2.jpg'
         },
         {
             title: "Suvarna Sutera",
             number: '+6287877679292',
-            image: '/laundry.webp'
+            image: '/location2.jpg'
         },
     ]
     const containerVariants = {
