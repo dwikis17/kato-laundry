@@ -4,9 +4,13 @@ import HeroSection from "@/components/section/HeroSection";
 
 import { Work_Sans } from "next/font/google";
 import { Inter } from "next/font/google";
-import WhyUs from "./components/Why";
-import Scroll from "./components/Scroll";
 
+import Layout from "./components/Layout";
+import CardList from "./components/CardList";
+import WhyUs from "./components/Why";
+import WhySection from "./components/WhySection";
+import WhyJoin from "./components/WhyJoin";
+import OurLocation from "./components/OurLocation";
 
 
 const interFont = Inter({
@@ -18,21 +22,13 @@ const interFont = Inter({
 export default function Home() {
   return (
     <>
-
-      <div className="flex flex-col overflow-hidden">
-        <h1>AH</h1>
-        <CustomHeader />
-        <section id='hero' className="h-screen sm:h-[40vh] relative  mt-10 md:mt-20 ">
-          <HeroSection />
-        </section>
-
-        <section id='why-us' className="relative p-3  ">
-          <WhyUs />
-        </section>
-        <section id="footer" className="min-h-[400px] bg-black">
-
-        </section>
-      </div>
+      <Layout>
+        <HeroSection />
+        <CardList />
+        <WhySection />
+        <WhyJoin />
+        <OurLocation />
+      </Layout>
     </>
   );
 }

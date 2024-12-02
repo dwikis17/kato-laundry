@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  @media (hover: hover) {
+    .hover\:scrollbar-thin::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+  
+    .hover\:scrollbar-thin::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+      background-color: rgba(156, 163, 175, 0.5);
+    }
+  
+    .hover\:scrollbar-thin::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+  
+
+  
 @layer base {
     :root {
         --chart-1: 12 76% 61%;
