@@ -41,7 +41,7 @@ export default function OurLocation() {
         },
         {
             title: "Kelapa Gading",
-            number: '+62 87726926906',
+            number: '+6287726926906',
             image: '/location2.jpg'
         },
         {
