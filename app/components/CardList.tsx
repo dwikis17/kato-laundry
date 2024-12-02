@@ -50,7 +50,7 @@ export default function CardList() {
                     }}
                     transition={{ duration: 0.6, ease: 'easeInOut' }}
                 >
-                    <Card className="shadow-md shadow-gray-500">
+                    <Card className="shadow-md shadow-gray-500 h-full">
                         <CardHeader>
                             <CardTitle>{card.title}</CardTitle>
                         </CardHeader>
