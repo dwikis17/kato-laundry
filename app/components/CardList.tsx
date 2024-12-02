@@ -16,7 +16,7 @@ export default function CardList() {
         },
         {
             title: 'Mulai bisnis laundry.',
-            description: 'Saya ingin mulai usaha Franchise Laundry'
+            description: 'Saya ingin mulai kemitraan laundry'
         },
         {
             title: 'Kerjasama dengan Kato.',

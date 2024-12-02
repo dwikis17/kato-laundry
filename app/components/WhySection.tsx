@@ -32,7 +32,7 @@ export default function WhySection() {
         {
             title: "Bisnis Jangka Panjang",
             description: "Bisnis yang sustainable, mampu beroperasi dalam jangka yang panjang dan membuatnya jadi pilihan investasi yang baik",
-            image: '/longlasting.jpg'
+            image: '/resesi.jpg'
         },
         {
             title: "Aset Berupa Mesin",
@@ -42,7 +42,7 @@ export default function WhySection() {
         {
             title: "Bisnis yang Tahan Resesi",
             description: "Bisnis yang esensial dan tahan terhadap resesi. Hal ini terbukti pada saat pandemi COVID-19 di tahun 2020 lalu",
-            image: '/resesi.jpg'
+            image: '/longlasting.jpg'
         },
 
 

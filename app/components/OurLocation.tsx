@@ -26,7 +26,7 @@ export default function OurLocation() {
     const list = [
         {
             title: "Greenlake City",
-            number: '+6287877679292',
+            number: '+6287745520200',
             image: '/location2.jpg'
         },
         {
@@ -35,18 +35,18 @@ export default function OurLocation() {
             image: '/location2.jpg'
         },
         {
-            title: "Citra 6",
+            title: "Taman Permata Palem",
             number: '+6285923227111',
             image: '/location2.jpg'
         },
         {
             title: "Kelapa Gading",
-            number: '+6287877679292',
+            number: '+62 87726926906',
             image: '/location2.jpg'
         },
         {
             title: "Suvarna Sutera",
-            number: '+6287877679292',
+            number: '+6287832122010',
             image: '/location2.jpg'
         },
     ]

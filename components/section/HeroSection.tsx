@@ -37,7 +37,7 @@ export default function HeroSection() {
                         Pesan Laundry
                     </button>
                 </Link>
-                <Button variant="default" className="w-full sm:w-auto bg-[#FFFFFF] font-bold text-white bg-opacity-25 border-opacity-0">
+                <Button variant="default" className="w-full sm:w-auto bg-[#FFFFFF] font-bold text-white bg-opacity-25 border-opacity-0" onClick={() => window.open("https://wa.me/+6281211817198", '_blank')}>
                     Jadi Mitra Sekarang
                 </Button>
             </div>

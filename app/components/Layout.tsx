@@ -17,7 +17,7 @@ const Navigation = () => {
         { href: "/#why-laundry", text: "Why Laundry" },
         { href: "/#why-us", text: "Why Us" },
         { href: "/#our-location", text: "Our Locations" },
-        { href: "/", text: "Join Franchise" },
+        { href: "https://wa.me/+6281211817198", text: "Gabung Kemitraan" },
     ]
     return (
         <nav className="bg-white border-b sticky top-0 z-50">
@@ -90,6 +90,7 @@ const Navigation = () => {
                             <Link
                                 key={index}
                                 href={link.href}
+                                target='_blank'
                                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100"
                                 onClick={() => setIsOpen(false)}
                             >
@@ -110,10 +111,10 @@ const Footer = () => {
             <h1 className="text-5xl md:text-4xl lg:text-[50px]  text-center ] font-bold mb-12">
                 Jadi Mitra Sekarang
             </h1>
-            <Button className='bg-black'>
+            <Button className='bg-black' onClick={() => window.open("https://wa.me/+6281211817198", '_blank')}>
                 Hubungi Kami
             </Button>
-        </footer>
+        </footer >
     );
 };
 
