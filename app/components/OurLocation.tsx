@@ -42,7 +42,7 @@ export default function OurLocation() {
         {
             title: "Kelapa Gading",
             number: '+6287726926906',
-            image: '/location2.jpg'
+            image: '/kelapagading.jpg'
         },
         {
             title: "Suvarna Sutera",
