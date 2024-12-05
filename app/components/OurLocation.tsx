@@ -10,7 +10,7 @@ const ItemComponent = ({ title, image, number }: any) => (
                 src={image}
                 alt={title}
                 fill
-                className="object-cover"
+
                 unoptimized
             />
         </div>
@@ -27,27 +27,27 @@ export default function OurLocation() {
         {
             title: "Greenlake City",
             number: '+6287745520200',
-            image: '/location2.jpg'
+            image: '/Greenlake_City.jpeg'
         },
         {
             title: "Greenville",
             number: '+628997220800',
-            image: '/location2.jpg'
+            image: '/Greenville.jpeg'
         },
         {
             title: "Taman Permata Palem",
             number: '+6285923227111',
-            image: '/location2.jpg'
+            image: '/taman_permata_palem.jpeg'
         },
         {
             title: "Kelapa Gading",
             number: '+62 87726926906',
-            image: '/location2.jpg'
+            image: '/kelapagading.jpg'
         },
         {
             title: "Suvarna Sutera",
             number: '+6287832122010',
-            image: '/location2.jpg'
+            image: '/Suvarna.jpeg'
         },
     ]
     const containerVariants = {
